@@ -1,0 +1,25 @@
+Sea Level Predictor
+
+I will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
+
+Use the data to complete the following tasks:
+
+Use Pandas to import the data from epa-sea-level.csv.
+
+Use matplotlib to create a scatter plot using the Year column as the x-axis and the CSIRO Adjusted Sea Level column as the y-axix.
+
+Use the linregress function from scipy.stats to get the slope and y-intercept of the line of best fit. Plot the line of best fit over the top of the scatter plot. Make the line go through the year 2050 to predict the sea level rise in 2050.
+Plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset. Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+The x label should be Year, the y label should be Sea Level (inches), and the title should be Rise in Sea Level.
+
+Data Source
+Global Average Absolute Sea Level Change, 1880-2013 from the US Environmental Protection Agency using data from CSIRO, 2015; NOAA, 2015.This data contains “cumulative changes in sea level for the world’s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements. It shows average absolute sea level change, which refers to the height of the ocean surface, regardless of whether nearby land is rising or falling. Satellite data are based solely on measured sea level, while the long-term tide gauge data include a small correction factor because the size and shape of the oceans are changing slowly over time. (On average, the ocean floor has been gradually sinking since the last Ice Age peak, 20,000 years ago.)”
+
+Key Findings: 
+We estimate the rise in global average sea level from satellite altimeter data for 1993–2009 and from coastal and island sea-level measurements from 1880 to 2009. For 1993–2009 and after correcting for glacial isostatic adjustment, the estimated rate of rise is 3.2 ± 0.4 mm year−1 from the satellite data and 2.8 ± 0.8 mm year−1 from the in situ data. The global average sea-level rise from 1880 to 2009 is about 210 mm. The linear trend from 1900 to 2009 is 1.7 ± 0.2 mm year−1 and since 1961 is 1.9 ± 0.4 mm year−1. There is considerable variability in the rate of rise during the twentieth century but there has been a statistically significant acceleration since 1880 and 1900 of 0.009 ± 0.003 mm year−2 and 0.009 ± 0.004 mm year−2, respectively. Since the start of the altimeter record in 1993, global average sea level rose at a rate near the upper end of the sea level projections of the Intergovernmental Panel on Climate Change’s Third and Fourth Assessment Reports. However, the reconstruction indicates there was little net change in sea level from 1990 to 1993, most likely as a result of the volcanic eruption of Mount Pinatubo in 1991.
+
+Sources 
+Name: EPA (United States Environmental Protection Agency)
+Web: http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv
+Name: CSIRO (Commonwealth Scientific and Industrial Research Organization)
+Web: http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html
